@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SoftDev_LifeSaver</string>
+    <string name="applogo">AppLogo</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_create_one">Don\'t have an account? Create one</string>
+    <string name="sign_in_using">Sign in using:</string>
+    <string name="google" />
+    <string name="facebook" />
+    <string name="forgot_your_password">Forgot your password?</string>
+</resources>
