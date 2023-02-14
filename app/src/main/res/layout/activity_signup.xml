@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -22,6 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:hint="Full Name"
+        android:inputType="text"
         android:minHeight="48dp"
         android:autofillHints="" />
     <EditText
@@ -32,6 +32,7 @@
         android:layout_marginTop="16dp"
         android:layout_below="@id/FullName"
         android:hint="Email"
+        android:inputType="textEmailAddress"
         android:minHeight="48dp"
         android:autofillHints="" />
 
@@ -67,6 +68,7 @@
         android:layout_marginTop="16dp"
         android:layout_below="@id/confirm_password_input"
         android:hint="Home Address"
+        android:inputType="text"
         android:minHeight="48dp"
         android:autofillHints="" />
 
@@ -77,6 +79,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_below="@id/Address"
+        android:inputType="phone"
         android:hint="Phone Number"
         android:minHeight="48dp"
         android:autofillHints="" />
